@@ -33,18 +33,9 @@ Coolant temperature rise, `delta_T`, may be used as a sanity check to confirm th
 8. Train the MLP surrogate model using the completed CSV file.
 9. Use the trained model inside the optimization loop.
 
-## Important CSV Requirement
-
-Before training the MLP, the CFD results file must be post-processed and completed manually.
-
-The required file is:
-
-```text
-
 ## CFD Case File Setup
 
 All Fluent case files must be placed inside a folder named:
 
 ```text
 cases
-cfd_results.csv
