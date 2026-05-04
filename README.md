@@ -40,4 +40,11 @@ Before training the MLP, the CFD results file must be post-processed and complet
 The required file is:
 
 ```text
+
+## CFD Case File Setup
+
+All Fluent case files must be placed inside a folder named:
+
+```text
+cases
 cfd_results.csv
